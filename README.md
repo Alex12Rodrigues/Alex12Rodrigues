@@ -41,10 +41,10 @@
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=9d10af&height=2"/>
 
-## 🐍 Contribuicoes
+## 🏆 Trofeus do GitHub
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Alex12Rodrigues/Alex12Rodrigues/output/github-contribution-grid-snake.svg" />
+<img src="https://github-profile-trophy.vercel.app/?username=Alex12Rodrigues&theme=algolia&no-frame=true&no-bg=true&margin-w=15&margin-h=15" />
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=9d10af&height=2"/>
