@@ -57,3 +57,15 @@ Software Quality (QA) professional focused on application stability, reliability
 </p>
 
 ---
+
+## Profile Views
+
+<p align="center">
+<img src="https://komarev.com/ghpvc/?username=Alex12Rodrigues&style=for-the-badge&color=0ea5e9" alt="Profile views" />
+</p>
+
+<p align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2200&pause=700&color=38BDF8&center=true&vCenter=true&width=700&lines=Realtime+visitor+tracking+enabled;Thanks+for+stopping+by+my+profile" alt="views status" />
+</p>
+
+---
