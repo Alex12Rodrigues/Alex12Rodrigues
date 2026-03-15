@@ -1,0 +1,9 @@
+[ ] Trocar SEU_USUARIO em README_perfil_template.md
+[ ] Trocar SEU_NOME, cargo e frase
+[ ] Trocar projetos em destaque
+[ ] Trocar LinkedIn, email e portfolio
+[ ] Trocar SEU_USUARIO em .github/workflows/snake.yml
+[ ] Garantir que o repositorio seja publico
+[ ] Fazer commit e push
+[ ] Rodar workflow Generate Snake na aba Actions
+[ ] Conferir se o arquivo snake apareceu no branch output
