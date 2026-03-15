@@ -34,18 +34,6 @@ Profissional de Qualidade de Software (QA) focado em estabilidade, confiabilidad
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=1D4ED8&height=2" />
 
-## Em movimento
-
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2600&pause=800&color=2EA8FF&center=true&vCenter=true&width=900&lines=QA+na+pr%C3%A1tica%3A+qualidade+n%C3%A3o+%C3%A9+acaso;Automa%C3%A7%C3%A3o+E2E+com+Playwright+e+Cypress;Testes+de+API%2C+bugs+bem+reportados+e+entregas+confi%C3%A1veis" alt="Typing SVG" />
-</p>
-
-<p align="center">
-<a href="https://alex12rodrigues.infinityfree.me/?i=1">Ver portfólio completo</a>
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0F766E&height=2" />
-
 ## QA em ação
 
 <p align="center">
@@ -58,6 +46,14 @@ Profissional de Qualidade de Software (QA) focado em estabilidade, confiabilidad
 
 <p align="center">
 <img src="https://img.shields.io/badge/Dispon%C3%ADvel%20para-Oportunidades%20em%20QA-0284C7?style=for-the-badge&logo=github&logoColor=white" />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0EA5E9&height=2" />
+
+## Robô QA em ação
+
+<p align="center">
+<img src="./assets/qa-bot-runner.svg" alt="Robô QA percorrendo uma trilha de testes" />
 </p>
 
 ---

@@ -1,0 +1,106 @@
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="progress" x1="70" y1="215" x2="760" y2="215" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <filter id="glowGreen" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowBlue" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="260" rx="18" fill="url(#bg)"/>
+  <rect x="18" y="18" width="864" height="224" rx="14" fill="url(#panel)" stroke="#1E293B"/>
+
+  <text x="42" y="54" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Trilha do Robô</text>
+  <text x="42" y="80" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="14">Automação configurada. Robô executando trilha de testes em loop.</text>
+
+  <g opacity="0.9">
+    <rect x="42" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="72" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="102" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="132" y="104" width="22" height="22" rx="4" fill="#22C55E"/>
+    <rect x="162" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="192" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="222" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="252" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="282" y="104" width="22" height="22" rx="4" fill="#38BDF8"/>
+    <rect x="312" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="342" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="372" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="402" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="432" y="104" width="22" height="22" rx="4" fill="#F59E0B"/>
+    <rect x="462" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="492" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="522" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="552" y="104" width="22" height="22" rx="4" fill="#22C55E"/>
+    <rect x="582" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="612" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="642" y="104" width="22" height="22" rx="4" fill="#38BDF8"/>
+    <rect x="672" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="702" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+    <rect x="732" y="104" width="22" height="22" rx="4" fill="#22C55E"/>
+    <rect x="762" y="104" width="22" height="22" rx="4" fill="#E5E7EB"/>
+  </g>
+
+  <line x1="70" y1="182" x2="760" y2="182" stroke="#1E293B" stroke-width="10" stroke-linecap="round"/>
+  <line x1="70" y1="182" x2="760" y2="182" stroke="url(#progress)" stroke-width="10" stroke-linecap="round" stroke-dasharray="500 220">
+    <animate attributeName="stroke-dashoffset" values="720;0" dur="4s" repeatCount="indefinite"/>
+  </line>
+
+  <g transform="translate(70 182)">
+    <animateTransform attributeName="transform" type="translate" values="70 182;760 182;70 182" dur="8s" repeatCount="indefinite"/>
+
+    <circle cx="0" cy="0" r="9" fill="#22C55E" filter="url(#glowGreen)">
+      <animate attributeName="r" values="8;10;8" dur="0.8s" repeatCount="indefinite"/>
+    </circle>
+
+    <g transform="translate(-18 -50)">
+      <rect x="0" y="0" width="36" height="34" rx="10" fill="#38BDF8" stroke="#E0F2FE" stroke-width="2" filter="url(#glowBlue)"/>
+      <circle cx="12" cy="14" r="3.5" fill="#0F172A"/>
+      <circle cx="24" cy="14" r="3.5" fill="#0F172A"/>
+      <rect x="10" y="22" width="16" height="3" rx="1.5" fill="#0F172A"/>
+      <line x1="9" y1="0" x2="6" y2="-10" stroke="#E0F2FE" stroke-width="2" stroke-linecap="round"/>
+      <line x1="27" y1="0" x2="30" y2="-10" stroke="#E0F2FE" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="6" cy="-12" r="2.5" fill="#22C55E"/>
+      <circle cx="30" cy="-12" r="2.5" fill="#22C55E"/>
+      <line x1="6" y1="34" x2="3" y2="46" stroke="#93C5FD" stroke-width="3" stroke-linecap="round"/>
+      <line x1="30" y1="34" x2="33" y2="46" stroke="#93C5FD" stroke-width="3" stroke-linecap="round"/>
+      <line x1="0" y1="18" x2="-10" y2="26" stroke="#93C5FD" stroke-width="3" stroke-linecap="round">
+        <animate attributeName="y2" values="26;22;26" dur="0.6s" repeatCount="indefinite"/>
+      </line>
+      <line x1="36" y1="18" x2="46" y2="12" stroke="#93C5FD" stroke-width="3" stroke-linecap="round">
+        <animate attributeName="y2" values="12;16;12" dur="0.6s" repeatCount="indefinite"/>
+      </line>
+    </g>
+  </g>
+
+  <g transform="translate(805 155)">
+    <rect x="0" y="0" width="40" height="40" rx="10" fill="#16A34A" opacity="0.15"/>
+    <path d="M12 21L18 27L29 14" stroke="#4ADE80" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <text x="42" y="223" fill="#86EFAC" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">Status: execução contínua</text>
+  <text x="830" y="223" text-anchor="end" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">bugs -> validação -> deploy</text>
+</svg>
